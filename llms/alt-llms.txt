@@ -1,0 +1,59 @@
+# Alt
+
+> Alt (alt.xyz) is an alternative-asset platform for high-value graded trading cards. Collectors and
+> investors research, value, buy, sell, vault and borrow against slabbed sports cards, Pokemon and other
+> trading-card games in one place. Alt operates a fixed-price marketplace, timed and "Liquid" auctions,
+> an Instant Pricer, a physical vault in Delaware, and card-backed lending, all underwritten by Alt
+> Value — a machine-learning pricing model, tuned by card-pricing specialists, that produces a real-time
+> value for every BGS, PSA and SGC card vaulted with Alt.
+
+## API status
+
+Alt publishes **no public developer program**. As of 2026-08-02 there is no developer portal, no API
+reference, no OpenAPI/AsyncAPI/GraphQL contract offered to third parties, no SDK, no CLI, no sandbox,
+no MCP server, no A2A agent card, and no self-service API signup. The alt.xyz web and mobile
+applications are served by a private platform backend that is not documented or offered externally.
+No `/.well-known/` discovery documents are published on any Alt host. This entry is a company profile
+in the API Evangelist network; it is not an API listing.
+
+## Company
+
+- [Alt](https://alt.xyz/): Buy and sell graded trading cards; the product home.
+- [Company](https://alt.xyz/company): About Alt.
+- [Blog](https://alt.xyz/blog): Company and market writing.
+- [Market Trends](https://alt.xyz/market-trends): Published trading-card market trend views.
+- [Careers](https://job-boards.greenhouse.io/alt): Open roles (Greenhouse job board).
+- [GitHub](https://github.com/onlyalt): The engineering organisation's public GitHub org.
+
+## Products
+
+- [Buy](https://alt.xyz/buy): Buying graded cards on Alt.
+- [Sell](https://alt.xyz/sell): Selling and consigning to Alt.
+- [Browse](https://alt.xyz/browse): Fixed-price, auction and research listings across every card category.
+- [Liquid Auctions](https://alt.xyz/liquid-auctions): Alt's auction format.
+- [Instant Pricer](https://alt.xyz/instant-pricer): Instant Alt Value lookup for a card.
+- [Vault](https://alt.xyz/vault): Physical storage of graded cards in Alt's Delaware vault.
+- [Lending](https://alt.xyz/lending): Loans collateralised by vaulted cards.
+
+## Support and policies
+
+- [Help Center](https://support.alt.xyz/): Intercom-hosted support documentation.
+- [Fees](https://support.alt.xyz/en/articles/9682168-alt-fees): Published marketplace, auction, vaulting
+  and outtake fee schedule.
+- [Terms of Service](https://alt.xyz/terms)
+- [Privacy Policy](https://alt.xyz/privacy)
+- [Sign up](https://alt.xyz/signup) / [Log in](https://alt.xyz/login)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/alt/refs/heads/main/apis.yml): The APIs.json
+  profile for Alt.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/alt/refs/heads/main/security/alt-domain-security.yml):
+  Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/alt/refs/heads/main/well-known/alt-well-known.yml):
+  Recorded /.well-known/ discovery results (none published).
+
+---
+generated: 2026-08-02
+method: generated
+source: apis.yml + alt.xyz public site, sitemap and help center (probed 2026-08-02)

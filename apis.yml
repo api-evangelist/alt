@@ -1,23 +1,88 @@
 aid: alt
 name: Alt
-description: 'Alt is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Alt (alt.xyz) is an alternative-asset platform for high-value graded
+  trading cards, founded by Leore Avidar, who previously co-founded the address and
+  print API company Lob. Alt lets collectors and investors research, value, buy, sell,
+  vault, and borrow against slabbed cards in one place, spanning baseball, basketball,
+  football, hockey, soccer, golf, tennis, racing and combat-sports cards as well as
+  Pokemon and other trading-card games. The platform combines a fixed-price marketplace,
+  timed and "Liquid" auctions, an Instant Pricer, market-trend and research views,
+  a physical vault in Delaware that removes sales tax from transactions, and card-backed
+  lending. Its pricing engine, Alt Value, is a machine-learning model tuned by card-pricing
+  specialists that produces a real-time value for every BGS, PSA and SGC card vaulted
+  with Alt, and that value underwrites every trade, loan and product on the platform.
+  Alt raised a $75M Series B in November 2021 led by Spearhead with Seven Seven Six
+  and a group of professional athletes. Alt publishes no public developer program:
+  there is no developer portal, API reference, OpenAPI definition, SDK, CLI, sandbox
+  or self-service API signup. Its programmatic surface is the private backend behind
+  the alt.xyz web and mobile applications (a FastAPI/GraphQL platform service, with
+  the engineering organisation on GitHub as github.com/onlyalt), which integrates payment,
+  identity-verification, authentication, lending-servicing and shipping vendors but
+  is neither documented nor offered to third parties.'
 url: https://raw.githubusercontent.com/api-evangelist/alt/refs/heads/main/apis.yml
+image: https://alt.xyz/logo.svg
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-harvest-source-url: https://forgeglobal.com/alt_stock/
+x-tier: profiled
+x-tier-reason: enrichment-pass
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Collectibles
+- Trading Cards
+- Sports Cards
+- Alternative Assets
+- Marketplace
+- Auctions
+- Asset Valuation
+- Machine Learning
+- Lending
+- Fintech
+- E-Commerce
 apis: []
+x-enrichment:
+  date: '2026-08-02'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alt-domain-security.yml
 - type: Website
+  url: https://alt.xyz/
+- type: About
+  url: https://alt.xyz/company
+- type: Blog
+  url: https://alt.xyz/blog
+- type: Support
+  url: https://support.alt.xyz/
+- type: Pricing
+  url: https://support.alt.xyz/en/articles/9682168-alt-fees
+- type: SignUp
+  url: https://alt.xyz/signup
+- type: Login
+  url: https://alt.xyz/login
+- type: TermsOfService
+  url: https://alt.xyz/terms
+- type: PrivacyPolicy
+  url: https://alt.xyz/privacy
+- type: GitHubOrganization
+  url: https://github.com/onlyalt
+- type: Careers
+  url: https://job-boards.greenhouse.io/alt
+- type: LinkedIn
+  url: https://www.linkedin.com/company/altxyzofficial
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/alt-xyz
+- type: SecondaryMarket
   url: https://forgeglobal.com/alt_stock/
+- type: LLMsTxt
+  url: llms/alt-llms.txt
