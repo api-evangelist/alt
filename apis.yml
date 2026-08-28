@@ -20,6 +20,17 @@ description: 'Alt (alt.xyz) is an alternative-asset platform for high-value grad
   identity-verification, authentication, lending-servicing and shipping vendors but
   is neither documented nor offered to third parties.'
 url: https://raw.githubusercontent.com/api-evangelist/alt/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://alt.xyz/logo.svg
 x-type: company
 x-source: harvest:secondary-market
