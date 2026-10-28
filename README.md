@@ -64,34 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Alt (alt.xyz) is an alternative-asset platform for high-value graded trading cards. Collectors and
-investors research, value, buy, sell, vault and borrow against slabbed sports cards, Pokemon and other
-trading-card games in one place. Alt operates a fixed-price marketplace, timed and "Liquid" auctions, an
-Instant Pricer, a physical vault in Delaware that removes sales tax from transactions, and card-backed
-lending — all underwritten by Alt Value, a machine-learning pricing model tuned by card-pricing
-specialists that produces a real-time value for every BGS, PSA and SGC card vaulted with Alt. The company
-was founded by Leore Avidar, previously co-founder of the API company Lob, and raised a $75M Series B in
-November 2021 led by Spearhead with Seven Seven Six.
+Alt (alt.xyz) is an alternative-asset platform for high-value graded trading cards, founded by Leore Avidar, who previously co-founded the address and print API company Lob. Alt lets collectors and investors research, value, buy, sell, vault, and borrow against slabbed cards in one place, spanning baseball, basketball, football, hockey, soccer, golf, tennis, racing and combat-sports cards as well as Pokemon and other trading-card games. The platform combines a fixed-price marketplace, timed and "Liquid" auctions, an Instant Pricer, market-trend and research views, a physical vault in Delaware that removes sales tax from transactions, and card-backed lending. Its pricing engine, Alt Value, is a machine-learning model tuned by card-pricing specialists that produces a real-time value for every BGS, PSA and SGC card vaulted with Alt, and that value underwrites every trade, loan and product on the platform. Alt raised a $75M Series B in November 2021 led by Spearhead with Seven Seven Six and a group of professional athletes. Alt publishes no public developer program: there is no developer portal, API reference, OpenAPI definition, SDK, CLI, sandbox or self-service API signup. Its programmatic surface is the private backend behind the alt.xyz web and mobile applications (a FastAPI/GraphQL platform service, with the engineering organisation on GitHub as github.com/onlyalt), which integrates payment, identity-verification, authentication, lending-servicing and shipping vendors but is neither documented nor offered to third parties.
 
-## API status
+**Areas:** Company · Collectibles · Trading Cards · Sports Cards · Alternative Assets · Marketplace · Auctions · Asset Valuation · Machine Learning · Lending · Fintech · E-Commerce
 
-**Alt publishes no public developer program.** As of 2026-08-02 there is no developer portal, API
-reference, OpenAPI/AsyncAPI/GraphQL contract offered to third parties, SDK, CLI, sandbox, MCP server,
-A2A agent card, or self-service API signup. The alt.xyz applications are served by a private platform
-backend that is neither documented nor offered externally. No `/.well-known/` discovery documents are
-published on any Alt host — the alt.xyz origin is a single-page app that answers 200 with its HTML shell
-for every unmatched path, which is recorded as a catch-all false positive in `well-known/`.
+## Alt on APIs.io
 
-- https://alt.xyz/
-- https://support.alt.xyz/
-- https://github.com/onlyalt
-- https://forgeglobal.com/alt_stock/ (secondary-market listing — harvest source)
+Everything profiled for Alt is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/alt/](https://apis.io/providers/alt/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | File |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Alt Domain Security](https://apis.io/security/alt/alt-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://alt.xyz/)
+- [Pricing](https://support.alt.xyz/en/articles/9682168-alt-fees)
+- [Sign up](https://alt.xyz/signup)
+- [Support](https://support.alt.xyz/)
+- [Blog](https://alt.xyz/blog)
+- [Terms of service](https://alt.xyz/terms)
+- [Privacy policy](https://alt.xyz/privacy)
+- [GitHub](https://github.com/onlyalt)
+
+## API Evangelist rating
+
+**Kin Score 8.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| APIs.json profile | `apis.yml` |
-| Domain security posture (probed) | `security/alt-domain-security.yml` |
-| `/.well-known/` discovery probe (none published) | `well-known/alt-well-known.yml` |
-| llms.txt | `llms/alt-llms.txt` |
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 17.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.0** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/alt/](https://apis.io/providers/alt/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Alt: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/alt/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
